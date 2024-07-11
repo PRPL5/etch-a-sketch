@@ -22,7 +22,7 @@ function grid(size){
             let random2 = Math.floor(Math.random() * 100) + 1;
             let random3 = Math.floor(Math.random() * 100) + 1;
 
-            event.target.style.backgroundColor = 'rgb('+random1+' , 10 , '+random2+'';
+            event.target.style.backgroundColor = 'rgb('+random1+' , '+random2+' , '+random3+'';
         });
         container.appendChild(row);
         for(let j = 0; j <  sized; j++){
